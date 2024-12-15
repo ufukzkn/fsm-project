@@ -112,12 +112,12 @@ int main() {
     BankSystem bank;
 
     // Adding customers
-    bank.addCustomer("John Doe", 30, 1001, 5000.0);
-    bank.addCustomer("Jane Smith", 28, 1002, 3000.0);
+    bank.addCustomer("Ricardo Quaresma", 30, 1001, 5000.0);
+    bank.addCustomer("Rafa Silva", 28, 1002, 3000.0);
 
     // Adding employees
-    bank.addEmployee("Alice Johnson", 35, "Manager");
-    bank.addEmployee("Bob Williams", 40, "Clerk");
+    bank.addEmployee("Atiba Hutchinson", 35, "Manager");
+    bank.addEmployee("Mario Gomez", 40, "Clerk");
 
     // Display customers and employees
     cout << "Bank Customers:\n";
